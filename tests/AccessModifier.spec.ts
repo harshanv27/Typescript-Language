@@ -8,9 +8,9 @@ import{test,expect} from "@playwright/test";
 
 class Person{
 
-    public name:string // Public property - accessible everywhere
+    public name:string // Public property - accessible everywhere // same class , child class and outside of the class
     protected age:number // Protected property - accessible within class and its sub-class
-    private ssn:number; // accessible only within this class
+    private ssn:number; // accessible only within this class // accesible inside the same class
 
     constructor(name:string,age:number,ssn:number){
 

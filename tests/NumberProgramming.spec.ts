@@ -229,8 +229,4 @@ while(true){
     console.log(revNumber);
 }
 
-
-
-
-
 })
