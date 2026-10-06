@@ -83,10 +83,4 @@ console.log("static property Modified==++++++==");
 console.log(s2.displayInfo());
 
 
-
-
-
-
-
-
 });

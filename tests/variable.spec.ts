@@ -49,4 +49,35 @@ function blockscope(){
 
 blockscope();
 
+
+let x11: string|number|boolean;  //=--- Union data type 
+x11='Komal';
+console.log(x11);
+x11=12;
+console.log(x11);
+x11=false;
+console.log(x11)
+
+let y11:any='Nema';
+console.log(y11);  // Nema
+console.log(typeof(y11));  // string 
+
+function greet(){
+
+    console.log("Todays session 1Typescript")
+
+}
+
+greet();     //Todays session 1Typescript
+
+
+function add(a:number, b:number):number{
+
+    return a+b;
+}
+
+let result= add(10, 20);
+
+console.log(result); // 30 
+
     
